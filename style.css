@@ -1,0 +1,91 @@
+body{
+    background: radial-gradient(#F2B9A1, #EA6264);
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+#wrapper{
+    width:700px;
+    margin:20px auto;
+    border-radius:30px;
+    background:white;
+    padding:20px;
+    color:#EA6264;
+}
+h1{
+    width:100%;
+    text-align:center;
+    font-size:50px;
+}
+.waku{
+    width:500px;
+    height:50px;
+    margin:10px 0;
+    border-radius:10px;
+    border:none;
+    background:#d3d3d3;
+    padding:5px;
+}
+:focus {
+    outline: none;
+}
+textarea{
+    width:500px;
+    margin:10px 0;
+    border:2px solid darkslateblue;
+    border-radius:10px;
+}
+#wrapper p{
+    width:100%;
+    font-weight:bold;
+    font-size:20px;
+    margin:30px 0 0 0;
+    text-align:center;
+}
+.btn{
+    width:230px;
+    padding:10px;
+    margin:50px auto;
+    display:block;
+    cursor:pointer;
+    border:none;
+    border-radius: 10px;
+    background:#EA6264;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:20px;
+}
+#cont{
+    width:500px;
+    margin:0 auto;
+}
+.select-center{
+    text-align:center;
+}
+.genre{
+    text-align:center;
+}
+select option{
+    background:#EA6264;
+    color:#fff;
+}
+select option:hover,
+select option:checked{
+    background:#EA6264;
+    color:#fff;
+}
+.image-box{
+    /* text-align:center; */
+    margin:20px 0 0 0;
+    border:solid 1px #d3d3d3;
+}
+.image-box{
+    /* height:50px; */
+    color:#696969;
+    padding:5px;
+}
+#btn_fotter{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}

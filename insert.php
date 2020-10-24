@@ -6,9 +6,19 @@ ini_set('display_errors', "On");
 if(
     !isset($_POST["title"]) || $_POST["title"] =="" ||
     !isset($_POST["genre"]) || $_POST["genre"] =="" ||
-    !isset($_POST["star"]) || $_POST["star"] ==""
-    //!isset($_POST["comment"]) || $_POST["comment"] ==""
+    !isset($_POST["star"]) || $_POST["star"] ==""||
+    !isset($_FILES['up_file']['name']) || $_FILES['up_file']['name'] ==""
+    // !isset($_POST["comment"]) || $_POST["comment"] ==""
 ){
+    if($_POST["title"] ==""){
+        exit('ParamErrorTitile');
+    }elseif($_POST["genre"] ==""){
+        exit('ParamErrorGenre');
+    }elseif($_POST["star"] ==""){
+        exit('ParamErrorStar');
+    }elseif($_FILES['up_file']['name'] ==""){
+        exit('ParamErrorImage');
+    }
     exit('ParamError');
 }
 
