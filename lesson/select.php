@@ -59,6 +59,7 @@ if($status==false){
     <style type="text/css">
         body{
             background: radial-gradient(#F2B9A1, #EA6264);
+            font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
         }
         h1{
             width:100%;
